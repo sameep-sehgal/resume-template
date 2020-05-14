@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-1 bg-black">
+    <div class="dimensions-100 m-2">
+        <div class="flex">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                        aria-controls="home" aria-selected="true">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                        aria-controls="profile" aria-selected="false">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#projects" role="tab"
+                        aria-controls="contact" aria-selected="false">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#work" role="tab"
+                        aria-controls="contact" aria-selected="false">Work Experience</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content m-2" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <div class="container">
+                    <div class="flex m-2">
+                        <img class="round m-2" src="./static/ProfilePic.png" alt="Profile Pic" height="170px">
+                    </div>
+                    <h2 class="text-center text-warning my-2">Hi! My name is <span class="text-danger">Your Name</span>
+                    </h2>
+                    <h2 class="text-center text-light mb-5 mt-1">Job Profile</h2>
+                    <div class="flex my-5 container" style="max-width: 300px;">
+                        <a href="#"><img class="rounded10" src="./static/fb-icon.png" alt="" width="30px"></a>
+                        <a href="#"><img class="rounded10" src="./static/insta-icon.jpg" alt="" width="30px"></a>
+                        <a href="#"><img class="rounded10" src="./static/linkedin-icon.png" alt="" width="30px"></a>
+                        <a href="#"><img class="rounded10" src="./static/twitter-icon.png" alt="" width="30px"></a>
+                    </div>
+                    <div class="flex">
+                        <a href="#"><button class="btn btn-danger round">See Resume</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    About Me
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-center">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid.
+                                3
+                                wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                                nesciunt
+                                laborum
+                                eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin
+                                coffee
+                                nulla
+                                assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                cred
+                                nesciunt
+                                sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them
+                                accusamus
+                                labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Skills
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-center">
+                                <div class="flex">
+                                    <p>Skill 1</p>
+                                    <p>Skill 2</p>
+                                    <p>Skill 3</p>
+                                </div>
+                                <div class="flex">
+                                    <p>Skill 4</p>
+                                    <p>Skill 5</p>
+                                    <p>Skill 6</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Education
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h6 class="text-center">School/University Name #1 (<span class="light">Degree
+                                        Name</span>)</h6>
+                                <div class="flex">
+                                    <p>Duration(Eg- Dec 2010 - Aug 2018)</p>
+                                    <p>Location(Eg- San Francisco)</p>
+                                </div>
+                                <h6 class="text-center">School/University Name #2 (<span class="light">Degree
+                                        Name</span>)</h6>
+                                <div class="flex">
+                                    <p>Duration(Eg- Dec 2010 - Aug 2018)</p>
+                                    <p>Location(Eg- San Francisco)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Project #1
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h6 class='text-center'>Project Link: <a href="#">link</a></h6>
+                                <div class="flex">
+                                    <ul>
+                                        <li>Project Description 1</li>
+                                        <li>Project Description 2</li>
+                                        <li>Project Description 3</li>
+                                        <li>Project Description 4</li>
+                                    </ul>
+                                    <img src="./static/project-image.jpg" alt="Project image" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Project #2
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h6 class='text-center'>Project Link: <a href="#">link</a></h6>
+                                <div class="flex">
+                                    <ul>
+                                        <li>Project Description 1</li>
+                                        <li>Project Description 2</li>
+                                        <li>Project Description 3</li>
+                                        <li>Project Description 4</li>
+                                    </ul>
+                                    <img src="./static/project-image.jpg" alt="Project image" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Project #3
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <h6 class='text-center'>Project Link: <a href="#">link</a></h6>
+                                <div class="flex">
+                                    <ul>
+                                        <li>Project Description 1</li>
+                                        <li>Project Description 2</li>
+                                        <li>Project Description 3</li>
+                                        <li>Project Description 4</li>
+                                    </ul>
+                                    <img src="./static/project-image.jpg" alt="Project image" height="100px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="contact-tab">
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link" type="button" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Company #1
+                                </button>
+                            </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="flex">
+                                    <p><span class="bold">Duration</span> (Eg-> Dec 2010 - Aug 2018)</p>
+                                    <p><span class="bold">Location</span> (San Francisco)</p>
+                                </div>
+                                <ul>
+                                    <li class="font-small">Description line 1</li>
+                                    <li class="font-small">Description line 2</li>
+                                    <li class="font-small">Description line 3</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Company #2
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="flex">
+                                    <p><span class="bold">Duration</span> (Eg-> Dec 2010 - Aug 2018)</p>
+                                    <p><span class="bold">Location</span> (San Francisco)</p>
+                                </div>
+                                <ul>
+                                    <li class="font-small">Description line 1</li>
+                                    <li class="font-small">Description line 2</li>
+                                    <li class="font-small">Description line 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h2 class="mb-0 text-center">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Company #3
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="flex">
+                                    <p><span class="bold">Duration</span> (Eg-> Dec 2010 - Aug 2018)</p>
+                                    <p><span class="bold">Location</span> (San Francisco)</p>
+                                </div>
+                                <ul>
+                                    <li class="font-small">Description line 1</li>
+                                    <li class="font-small">Description line 2</li>
+                                    <li class="font-small">Description line 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
